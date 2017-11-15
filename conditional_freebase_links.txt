@@ -1,0 +1,1325 @@
+/organization/non_profit_organization -> /business/employer : 0.9973
+
+x/location/place_with_neighborhoods -> /location/dated_location : 0.7200
+/location/place_with_neighborhoods -> /location/region : 0.8000
+x/location/place_with_neighborhoods -> /location/statistical_region : 0.7067
+
+/organization/organization_committee_title -> /organization/role : 0.7500
+/organization/organization_committee_title -> /business/job_title : 0.7500
+
+x/food/nutrient -> /medicine/drug : 0.7348
+x/food/nutrient -> /food/beverage : 0.7319
+
+/location/cn_prefecture_level_city -> /location/dated_location : 1.0000
+/location/cn_prefecture_level_city -> /location/administrative_division : 1.0000
+/location/cn_prefecture_level_city -> /location/statistical_region : 1.0000
+
+x/location/cn_autonomous_prefecture -> /location/cn_prefecture_level_city : 0.8230
+/location/cn_autonomous_prefecture -> /location/dated_location : 1.0000
+/location/cn_autonomous_prefecture -> /location/administrative_division : 1.0000
+/location/cn_autonomous_prefecture -> /location/statistical_region : 1.0000
+
+/architecture/venue -> /architecture/structure : 0.9287
+/architecture/venue -> /projects/project_focus : 0.9006
+
+x/people/measured_person -> /sports/pro_athlete : 0.9010
+
+/tv/tv_theme_song -> /music/composition : 0.8525
+
+/location/id_regency -> /location/dated_location : 1.0000
+/location/id_regency -> /location/location : 1.0000
+/location/id_regency -> /location/region : 1.0000
+/location/id_regency -> /location/administrative_division : 1.0000
+/location/id_regency -> /location/statistical_region : 1.0000
+
+/baseball/baseball_league -> /business/employer : 1.0000
+
+/sports/sports_league -> /business/employer : 0.7880
+
+/sports/sports_league_season -> /time/event : 0.9993
+
+x/astronomy/near_earth_object -> /astronomy/asteroid : 0.7097
+/astronomy/near_earth_object -> /astronomy/celestial_object : 1.0000
+x/astronomy/near_earth_object -> /astronomy/astronomical_discovery : 0.9839
+x/astronomy/near_earth_object -> /astronomy/orbital_relationship : 0.9516
+
+/broadcast/podcast_feed -> /broadcast/broadcast : 1.0000
+
+/event/disaster -> /time/event : 0.8919
+
+/location/dated_location -> /location/region : 0.9903
+/location/dated_location -> /location/statistical_region : 0.9421
+
+x/american_football/super_bowl -> /book/book_subject : 0.9167
+/american_football/super_bowl -> /sports/sports_championship_event : 1.0000
+/american_football/super_bowl -> /time/event : 1.0000
+
+/award/competition -> /time/event : 0.8784
+
+/architecture/structure -> /location/location : 0.9105
+/architecture/structure -> /projects/project_focus : 0.7232
+
+/people/chinese_ethnic_group -> /people/ethnicity : 1.0000
+
+/location/uk_council_area -> /location/dated_location : 1.0000
+/location/uk_council_area -> /location/uk_statistical_location : 0.9000
+/location/uk_council_area -> /location/administrative_division : 1.0000
+/location/uk_council_area -> /location/statistical_region : 1.0000
+
+/location/uk_metropolitan_borough -> /location/dated_location : 1.0000
+/location/uk_metropolitan_borough -> /location/location : 1.0000
+/location/uk_metropolitan_borough -> /location/uk_statistical_location : 0.9474
+/location/uk_metropolitan_borough -> /location/region : 1.0000
+/location/uk_metropolitan_borough -> /location/administrative_division : 1.0000
+/location/uk_metropolitan_borough -> /location/statistical_region : 1.0000
+
+x/award/award -> /award/award_honor : 0.7934
+
+/location/uk_statistical_location -> /location/dated_location : 0.9924
+/location/uk_statistical_location -> /location/region : 1.0000
+/location/uk_statistical_location -> /location/administrative_division : 1.0000
+/location/uk_statistical_location -> /location/statistical_region : 0.9924
+
+/opera/opera_house -> /architecture/venue : 1.0000
+/opera/opera_house -> /location/location : 1.0000
+/opera/opera_house -> /location/region : 1.0000
+/opera/opera_house -> /projects/project_focus : 0.8571
+
+/theater/theater -> /architecture/venue : 0.9950
+/theater/theater -> /location/location : 1.0000
+/theater/theater -> /location/region : 0.9950
+/theater/theater -> /projects/project_focus : 0.8828
+
+/location/us_cbsa -> /location/location : 1.0000
+
+/location/jp_district -> /location/dated_location : 1.0000
+/location/jp_district -> /location/statistical_region : 1.0000
+
+/location/us_state -> /location/dated_location : 1.0000
+/location/us_state -> /government/political_district : 1.0000
+/location/us_state -> /government/governmental_jurisdiction : 1.0000
+x/location/us_state -> /book/book_subject : 1.0000
+/location/us_state -> /location/administrative_division : 1.0000
+/location/us_state -> /location/statistical_region : 1.0000
+x/location/us_state -> /organization/organization_scope : 0.8947
+x/location/us_state -> /periodicals/newspaper_circulation_area : 0.8947
+
+x/government/u_s_congressperson -> /people/deceased_person : 0.8842
+
+/music/drummer -> /music/group_member : 0.7703
+
+/book/interview -> /book/published_work : 0.9231
+
+/geology/geological_formation -> /location/location : 0.9974
+/geology/geological_formation -> /geography/geographical_feature : 0.9965
+x/geology/geological_formation -> /geography/mountain : 0.7178
+
+/book/journal_article -> /book/scholarly_work : 0.8706
+/book/journal_article -> /book/written_work : 0.9529
+
+/location/jp_special_ward -> /location/dated_location : 1.0000
+/location/jp_special_ward -> /location/administrative_division : 1.0000
+/location/jp_special_ward -> /location/statistical_region : 1.0000
+
+x/people/family_member -> /people/deceased_person : 0.7834
+
+/wine/wine -> /business/consumer_product : 0.8425
+
+/cricket/cricket_player -> /sports/pro_athlete : 1.0000
+
+/location/postal_code -> /location/location : 0.8177
+
+x/games/game -> /cvg/game_version : 0.9077
+
+x/biology/gene_ontology_group -> /biology/gene_group : 0.9999
+x/biology/gene_ontology_group -> /biology/gene : 0.9999
+
+x/music/songwriter -> /book/author : 0.9991
+/music/songwriter -> /music/lyricist : 0.9991
+
+/religion/founding_figure -> /organization/organization_founder : 0.9704
+
+/soccer/football_team_manager -> /sports/pro_athlete : 0.9846
+
+x/engineering/engine -> /projects/project_focus : 0.7108
+
+x/rail/locomotive -> /rail/locomotive_class : 0.9129
+
+/medicine/bone -> /medicine/anatomical_structure : 1.0000
+
+/travel/guidebook -> /book/written_work : 0.9286
+
+/distilled_spirits/distillery -> /organization/organization : 1.0000
+/distilled_spirits/distillery -> /business/business_operation : 1.0000
+/distilled_spirits/distillery -> /business/employer : 1.0000
+
+x/medicine/drug_dosage_flavor -> /food/nutrient : 0.8182
+
+/american_football/nfl_game -> /games/game : 1.0000
+x/american_football/nfl_game -> /american_football/football_game : 1.0000
+
+x/interests/collector -> /people/deceased_person : 0.7426
+
+x/broadcast/tv_terrestrial_broadcast_facility -> /people/person : 0.8333
+/broadcast/tv_terrestrial_broadcast_facility -> /location/location : 1.0000
+/broadcast/tv_terrestrial_broadcast_facility -> /broadcast/broadcast : 1.0000
+x/broadcast/tv_terrestrial_broadcast_facility -> /biology/organism : 0.8333
+/broadcast/tv_terrestrial_broadcast_facility -> /broadcast/tv_station : 1.0000
+
+x/architecture/engineering_firm -> /people/person : 1.0000
+x/architecture/engineering_firm -> /projects/project_participant : 0.9643
+x/architecture/engineering_firm -> /biology/organism : 1.0000
+/architecture/engineering_firm -> /business/employer : 1.0000
+
+x/music/performance_role -> /music/instrument : 0.7505
+
+/government/political_district -> /location/dated_location : 0.9319
+
+/location/tw_district -> /location/dated_location : 1.0000
+/location/tw_district -> /location/administrative_division : 1.0000
+/location/tw_district -> /location/statistical_region : 1.0000
+
+/location/kp_city -> /location/dated_location : 1.0000
+/location/kp_city -> /location/administrative_division : 1.0000
+/location/kp_city -> /location/statistical_region : 1.0000
+
+/baseball/baseball_player -> /sports/pro_athlete : 1.0000
+
+x/fictional_universe/fictional_universe_creator -> /fictional_universe/fictional_character_creator : 0.8039
+
+/architecture/building -> /location/location : 0.9391
+
+/transportation/bridge -> /location/location : 0.9542
+
+/olympics/olympic_athlete -> /sports/pro_athlete : 0.9999
+
+x/fictional_universe/work_of_fiction -> /book/written_work : 0.9307
+x/fictional_universe/work_of_fiction -> /book/book : 0.7346
+
+x/biology/owned_animal -> /biology/pedigreed_animal : 0.9960
+
+x/biology/animal -> /biology/owned_animal : 0.7233
+x/biology/animal -> /biology/pedigreed_animal : 0.7282
+
+/broadcast/radio_station_owner -> /organization/organization : 0.8689
+/broadcast/radio_station_owner -> /business/business_operation : 0.7705
+/broadcast/radio_station_owner -> /business/employer : 0.8525
+
+x/sports/tournament_event_competitor -> /sports/pro_athlete : 1.0000
+
+x/sports/mascot -> /education/school_mascot : 0.7996
+
+/business/brand -> /organization/organization : 0.9293
+x/business/brand -> /music/record_label : 0.8424
+x/business/brand -> /business/business_operation : 0.9157
+
+/theater/theater_production_staff -> /people/person : 1.0000
+/theater/theater_production_staff -> /biology/organism : 1.0000
+
+/book/published_work -> /book/written_work : 0.8771
+
+/medicine/medical_trial_sponsor -> /organization/organization : 0.8333
+
+/business/sponsor -> /organization/organization : 0.7360
+
+/location/jp_prefecture -> /location/dated_location : 1.0000
+/location/jp_prefecture -> /location/administrative_division : 1.0000
+/location/jp_prefecture -> /location/statistical_region : 1.0000
+
+/cricket/cricket_coach -> /cricket/cricket_player : 0.9268
+/cricket/cricket_coach -> /sports/pro_athlete : 0.9512
+
+/music/record_label -> /organization/organization : 0.9995
+/music/record_label -> /business/business_operation : 0.9934
+
+/location/country -> /location/dated_location : 1.0000
+/location/country -> /location/statistical_region : 0.9945
+
+/conferences/conference -> /time/event : 0.8080
+
+/architecture/lighthouse -> /location/location : 1.0000
+
+/architecture/tower -> /location/location : 0.9982
+x/architecture/tower -> /architecture/lighthouse : 0.8911
+
+x/celebrities/abused_substance -> /medicine/medical_treatment : 0.8750
+
+x/interests/interest -> /interests/hobby : 0.8077
+
+x/computer/computer -> /internet/website : 0.8937
+
+x/music/voice -> /music/performance_role : 1.0000
+
+/soccer/football_world_cup -> /award/award : 1.0000
+x/soccer/football_world_cup -> /book/book_subject : 0.7273
+/soccer/football_world_cup -> /time/event : 1.0000
+/soccer/football_world_cup -> /soccer/football_award : 1.0000
+
+/automotive/make -> /business/brand : 0.7368
+
+x/royalty/monarch -> /people/deceased_person : 0.8761
+/royalty/monarch -> /royalty/noble_person : 0.8961
+
+x/location/region -> /location/dated_location : 0.7073
+
+x/spaceflight/satellite -> /spaceflight/spacecraft : 0.9375
+
+/comic_strips/comic_strip_genre -> /media_common/media_genre : 1.0000
+
+/geography/waterfall -> /location/location : 1.0000
+/geography/waterfall -> /geography/geographical_feature : 1.0000
+
+/geography/body_of_water -> /location/location : 0.9993
+/geography/body_of_water -> /geography/geographical_feature : 0.9984
+
+/people/appointed_role -> /business/job_title : 0.9029
+
+/film/film_company -> /business/business_operation : 0.9485
+/film/film_company -> /business/employer : 0.9485
+
+x/internet/protocol -> /computer/internet_protocol : 0.9810
+
+x/people/place_of_interment -> /location/dated_location : 0.8043
+
+/law/court_jurisdiction_area -> /location/dated_location : 1.0000
+/law/court_jurisdiction_area -> /government/governmental_jurisdiction : 1.0000
+x/law/court_jurisdiction_area -> /book/book_subject : 0.9091
+/law/court_jurisdiction_area -> /location/administrative_division : 1.0000
+/law/court_jurisdiction_area -> /location/statistical_region : 1.0000
+x/law/court_jurisdiction_area -> /film/film_location : 0.7273
+x/law/court_jurisdiction_area -> /organization/organization_scope : 0.8182
+x/law/court_jurisdiction_area -> /periodicals/newspaper_circulation_area : 1.0000
+
+/sports/boxer -> /sports/pro_athlete : 1.0000
+
+/olympics/olympic_venue -> /architecture/structure : 0.9844
+/olympics/olympic_venue -> /sports/sports_facility : 0.9844
+/olympics/olympic_venue -> /projects/project_focus : 1.0000
+
+x/business/product_endorsee -> /organization/organization : 0.8750
+x/business/product_endorsee -> /people/person : 0.8125
+x/business/product_endorsee -> /business/business_operation : 0.8750
+x/business/product_endorsee -> /biology/organism : 0.8125
+x/business/product_endorsee -> /business/employer : 0.8750
+
+/medicine/drug_ingredient -> /medicine/drug : 0.7683
+
+/government/election -> /time/event : 0.9090
+
+/digicams/digital_camera_manufacturer -> /business/employer : 0.9286
+
+/music/multipart_release -> /media_common/creative_work : 0.9999
+
+/fictional_universe/fictional_creature -> /fictional_universe/fictional_character : 0.8333
+
+x/religion/belief -> /religion/deity : 0.9164
+
+/book/magazine -> /book/periodical : 0.7166
+
+/medicine/hospital -> /location/location : 0.9854
+/medicine/hospital -> /architecture/structure : 0.8466
+/medicine/hospital -> /architecture/building : 0.8267
+/medicine/hospital -> /projects/project_focus : 0.7039
+
+/medicine/nerve -> /medicine/anatomical_structure : 1.0000
+
+/location/cn_province -> /location/dated_location : 1.0000
+/location/cn_province -> /location/administrative_division : 1.0000
+/location/cn_province -> /location/statistical_region : 1.0000
+
+x/education/honorary_degree_recipient -> /people/deceased_person : 0.8333
+
+x/royalty/chivalric_order_member -> /people/deceased_person : 0.7555
+
+/astronomy/astronomical_survey_project_organization -> /organization/organization : 1.0000
+
+/award/award_ceremony -> /time/event : 1.0000
+
+/geography/glacier -> /location/location : 1.0000
+/geography/glacier -> /geography/geographical_feature : 1.0000
+
+x/basketball/basketball_conference -> /business/employer : 0.8235
+
+/government/governmental_jurisdiction -> /location/dated_location : 0.9030
+/government/governmental_jurisdiction -> /location/statistical_region : 0.8364
+
+x/broadcast/broadcast -> /tv/tv_program : 0.7924
+
+/meteorology/cyclone_affected_area -> /location/dated_location : 0.7105
+/meteorology/cyclone_affected_area -> /location/statistical_region : 0.8684
+
+/aviation/airline -> /people/person : 0.9938
+/aviation/airline -> /biology/organism : 0.9938
+/aviation/airline -> /business/employer : 0.8954
+/aviation/airline -> /aviation/aircraft_owner : 0.9938
+
+/business/oil_field -> /business/asset : 0.9000
+
+/ice_hockey/hockey_player -> /sports/pro_athlete : 1.0000
+
+/location/uk_principal_area -> /location/dated_location : 1.0000
+/location/uk_principal_area -> /location/uk_statistical_location : 1.0000
+/location/uk_principal_area -> /location/administrative_division : 1.0000
+/location/uk_principal_area -> /location/statistical_region : 1.0000
+
+/fictional_universe/person_in_fiction -> /people/person : 0.8792
+/fictional_universe/person_in_fiction -> /biology/organism : 0.8808
+
+/film/film_crewmember -> /people/person : 0.9998
+/film/film_crewmember -> /biology/organism : 0.9998
+
+/tv/tv_personality -> /people/person : 0.9732
+/tv/tv_personality -> /biology/organism : 0.9732
+
+x/architecture/building_complex -> /food/brewery_brand_of_beer : 0.8401
+
+/government/us_vice_president -> /government/u_s_congressperson : 1.0000
+/government/us_vice_president -> /government/politician : 1.0000
+x/government/us_vice_president -> /people/deceased_person : 0.8125
+
+/cvg/musical_game -> /cvg/computer_videogame : 1.0000
+
+/book/scholarly_work -> /book/written_work : 0.9989
+x/book/scholarly_work -> /education/dissertation : 0.9583
+
+/location/ar_province -> /location/dated_location : 1.0000
+/location/ar_province -> /location/administrative_division : 1.0000
+/location/ar_province -> /location/statistical_region : 1.0000
+
+/amusement_parks/park -> /travel/tourist_attraction : 0.9368
+
+x/olympics/olympic_bidding_city -> /organization/organization : 0.7273
+/olympics/olympic_bidding_city -> /location/dated_location : 1.0000
+x/olympics/olympic_bidding_city -> /business/employer : 0.7273
+/olympics/olympic_bidding_city -> /location/statistical_region : 1.0000
+x/olympics/olympic_bidding_city -> /travel/travel_destination : 0.9091
+x/olympics/olympic_bidding_city -> /film/film_location : 0.8182
+x/olympics/olympic_bidding_city -> /periodicals/newspaper_circulation_area : 0.8182
+
+x/metropolitan_transit/transit_system -> /location/location : 0.9769
+x/metropolitan_transit/transit_system -> /metropolitan_transit/transit_stop : 0.9814
+
+x/soccer/football_league -> /time/recurring_event : 0.8963
+
+/location/ca_census_division -> /location/dated_location : 1.0000
+/location/ca_census_division -> /location/location : 1.0000
+/location/ca_census_division -> /location/region : 1.0000
+/location/ca_census_division -> /location/administrative_division : 0.9271
+/location/ca_census_division -> /location/statistical_region : 1.0000
+
+/book/technical_report -> /book/scholarly_work : 0.9167
+/book/technical_report -> /book/written_work : 1.0000
+
+/biology/domesticated_animal -> /biology/organism_classification : 0.7500
+
+/education/educational_institution_campus -> /location/location : 1.0000
+
+/organization/australian_organization -> /business/business_operation : 1.0000
+/organization/australian_organization -> /business/employer : 0.9500
+
+x/visual_art/visual_art_form -> /architecture/architectural_style : 0.8843
+
+x/book/series_editor -> /book/author : 0.9231
+
+/comic_books/comic_book_genre -> /media_common/media_genre : 1.0000
+
+x/sports/tournament_event -> /olympics/olympic_event : 0.7941
+
+/spaceflight/bipropellant_rocket_engine -> /spaceflight/rocket_engine : 1.0000
+
+x/tv/tv_soundtrack -> /music/album : 0.8750
+
+x/music/soundtrack -> /music/track_contribution : 0.9670
+
+/food/drinking_establishment -> /organization/organization : 0.9962
+/food/drinking_establishment -> /location/location : 1.0000
+/food/drinking_establishment -> /business/business_location : 1.0000
+/food/drinking_establishment -> /business/employer : 0.9962
+
+x/education/school_magazine -> /book/periodical : 1.0000
+
+x/automotive/designer -> /people/deceased_person : 0.8500
+
+/soccer/football_league_season -> /time/event : 1.0000
+
+/location/jp_city_town -> /location/dated_location : 1.0000
+/location/jp_city_town -> /location/statistical_region : 1.0000
+
+/architecture/museum -> /location/location : 0.7123
+/architecture/museum -> /travel/tourist_attraction : 0.9928
+
+/people/american_indian_group -> /people/ethnicity : 1.0000
+
+/law/courthouse -> /location/location : 0.9606
+
+/location/us_county -> /location/dated_location : 1.0000
+/location/us_county -> /location/administrative_division : 1.0000
+/location/us_county -> /location/statistical_region : 1.0000
+
+/location/administrative_division -> /location/dated_location : 0.9616
+/location/administrative_division -> /location/statistical_region : 0.9757
+
+/opera/opera -> /music/composition : 0.9639
+
+x/tv/tv_character -> /fictional_universe/fictional_character : 0.9976
+
+x/award/ranked_list_compiler -> /organization/organization : 0.7143
+x/award/ranked_list_compiler -> /business/employer : 0.7143
+
+x/celebrities/rivalry -> /time/event : 0.8777
+x/celebrities/rivalry -> /olympics/olympic_event_competition : 0.8777
+
+/location/de_urban_district -> /location/dated_location : 1.0000
+/location/de_urban_district -> /location/administrative_division : 1.0000
+/location/de_urban_district -> /location/statistical_region : 1.0000
+/location/de_urban_district -> /location/de_city : 1.0000
+
+/radio/radio_program -> /broadcast/content : 0.9908
+
+/location/cn_county_level_city -> /location/dated_location : 0.7416
+/location/cn_county_level_city -> /location/region : 1.0000
+/location/cn_county_level_city -> /location/administrative_division : 1.0000
+/location/cn_county_level_city -> /location/statistical_region : 0.7416
+
+/travel/accommodation -> /location/location : 0.9398
+/travel/accommodation -> /architecture/building : 0.8571
+x/travel/accommodation -> /projects/project_focus : 0.8244
+
+x/book/written_work -> /book/book : 0.9839
+
+/biology/amino_acid -> /food/nutrient : 0.7500
+/biology/amino_acid -> /medicine/drug : 0.8750
+/biology/amino_acid -> /medicine/drug_ingredient : 0.8750
+
+/rail/railway_terminus -> /location/location : 1.0000
+x/rail/railway_terminus -> /metropolitan_transit/transit_system : 0.7708
+/rail/railway_terminus -> /metropolitan_transit/transit_stop : 0.7708
+
+/fictional_universe/fictional_object_destroyer -> /fictional_universe/fictional_character : 1.0000
+x/fictional_universe/fictional_object_destroyer -> /book/book_character : 0.7143
+x/fictional_universe/fictional_object_destroyer -> /education/field_of_study : 0.7143
+x/fictional_universe/fictional_object_destroyer -> /film/film_character : 0.7143
+
+x/business/business_location -> /organization/organization : 0.7829
+x/business/business_location -> /business/employer : 0.7824
+
+x/location/hud_county_place -> /location/dated_location : 0.8018
+/location/hud_county_place -> /location/hud_foreclosure_area : 0.9979
+x/location/hud_county_place -> /location/statistical_region : 0.8035
+
+/travel/tourist_attraction -> /location/location : 0.7950
+x/travel/tourist_attraction -> /architecture/museum : 0.7074
+
+x/biology/organism -> /people/person : 0.9970
+
+/sports/sports_championship_event -> /time/event : 0.9939
+
+x/law/inventor -> /people/deceased_person : 0.7537
+
+x/award/award_nominee/award_nominations -> /award/award_nominee : 0.9500
+x/award/award_nominee/award_nominations -> /award/award_winner : 0.7000
+
+/soccer/football_match -> /time/event : 1.0000
+
+x/sports/sport_country -> /people/person : 0.9032
+x/sports/sport_country -> /location/dated_location : 1.0000
+/sports/sport_country -> /location/country : 1.0000
+x/sports/sport_country -> /government/governmental_jurisdiction : 1.0000
+x/sports/sport_country -> /book/book_subject : 1.0000
+x/sports/sport_country -> /location/administrative_division : 0.9677
+x/sports/sport_country -> /biology/organism : 0.9032
+x/sports/sport_country -> /organization/organization_member : 0.8710
+x/sports/sport_country -> /location/statistical_region : 1.0000
+/sports/sport_country -> /sports/sports_team_location : 1.0000
+x/sports/sport_country -> /olympics/olympic_participating_country : 0.9355
+x/sports/sport_country -> /periodicals/newspaper_circulation_area : 0.7419
+
+x/media_common/completer_of_unfinished_work -> /music/composer : 0.8333
+
+/location/uk_district -> /location/dated_location : 0.9167
+/location/uk_district -> /location/uk_statistical_location : 0.9167
+/location/uk_district -> /location/administrative_division : 1.0000
+/location/uk_district -> /location/statistical_region : 0.9167
+
+x/food/beer_country_region -> /people/person : 0.8000
+x/food/beer_country_region -> /location/dated_location : 0.9000
+x/food/beer_country_region -> /location/country : 0.8000
+/food/beer_country_region -> /location/region : 0.9667
+x/food/beer_country_region -> /government/governmental_jurisdiction : 0.8333
+x/food/beer_country_region -> /book/book_subject : 0.8667
+x/food/beer_country_region -> /location/administrative_division : 0.8333
+x/food/beer_country_region -> /biology/organism : 0.8000
+x/food/beer_country_region -> /organization/organization_member : 0.7667
+x/food/beer_country_region -> /location/statistical_region : 0.9333
+x/food/beer_country_region -> /sports/sports_team_location : 0.8667
+x/food/beer_country_region -> /olympics/olympic_participating_country : 0.7667
+x/food/beer_country_region -> /organization/organization_scope : 0.7000
+x/food/beer_country_region -> /periodicals/newspaper_circulation_area : 0.7333
+
+/location/nl_municipality -> /location/dated_location : 1.0000
+/location/nl_municipality -> /location/administrative_division : 1.0000
+/location/nl_municipality -> /location/statistical_region : 1.0000
+
+/zoos/zoo -> /location/location : 0.8664
+/zoos/zoo -> /travel/tourist_attraction : 0.8525
+
+/tennis/tennis_tournament_champion -> /sports/pro_athlete : 0.9831
+/tennis/tennis_tournament_champion -> /tennis/tennis_player : 1.0000
+
+/geography/geographical_feature -> /location/location : 0.9993
+
+/digicams/digital_camera -> /business/consumer_product : 0.9595
+
+/astronomy/moon -> /astronomy/celestial_object : 1.0000
+x/astronomy/moon -> /astronomy/orbital_relationship : 1.0000
+
+/event/disaster_victim -> /people/deceased_person : 0.9952
+
+/astronomy/star -> /astronomy/celestial_object : 0.9878
+x/astronomy/star -> /astronomy/orbital_relationship : 0.7191
+
+/metropolitan_transit/transit_stop -> /location/location : 0.9944
+
+/architecture/skyscraper -> /location/location : 0.9043
+/architecture/skyscraper -> /projects/project_focus : 1.0000
+
+x/library/public_library -> /library/public_library_system : 0.9198
+
+x/engineering/engine_category -> /law/invention : 0.8824
+
+/music/concert_tour -> /time/event : 0.9429
+
+x/education/field_of_study -> /fictional_universe/fictional_character : 0.9714
+x/education/field_of_study -> /film/film_character : 0.9751
+
+x/location/census_tract -> /location/hud_foreclosure_area : 1.0000
+
+/music/musical_instrument_company -> /business/business_operation : 0.7255
+
+/book/review -> /book/published_work : 0.8500
+/book/review -> /book/written_work : 0.9750
+
+/astronomy/supernova -> /astronomy/celestial_object : 1.0000
+
+/sports/australian_rules_footballer -> /sports/pro_athlete : 1.0000
+
+x/radio/radio_subject -> /book/book_subject : 0.7273
+
+/astronomy/comet -> /astronomy/celestial_object : 1.0000
+/astronomy/comet -> /astronomy/astronomical_discovery : 1.0000
+x/astronomy/comet -> /astronomy/orbital_relationship : 1.0000
+
+/rail/railway -> /location/location : 0.9803
+
+/bicycles/bicycle_model -> /business/consumer_product : 1.0000
+
+/location/cn_autonomous_county -> /location/dated_location : 1.0000
+/location/cn_autonomous_county -> /location/administrative_division : 1.0000
+/location/cn_autonomous_county -> /location/statistical_region : 1.0000
+
+/location/de_regierungsbezirk -> /location/dated_location : 1.0000
+/location/de_regierungsbezirk -> /location/administrative_division : 1.0000
+/location/de_regierungsbezirk -> /location/statistical_region : 1.0000
+
+/geography/mountain_range -> /location/location : 1.0000
+/geography/mountain_range -> /geography/geographical_feature : 1.0000
+
+/wine/wine_producer -> /organization/organization : 0.9949
+/wine/wine_producer -> /business/business_operation : 0.9949
+/wine/wine_producer -> /business/employer : 0.9746
+
+/people/canadian_aboriginal_group -> /people/ethnicity : 0.9600
+
+/media_common/netflix_title -> /film/film : 0.9734
+
+/book/newspaper -> /book/periodical : 0.9994
+
+/medicine/cancer_center_constituent -> /organization/organization : 0.8913
+
+/music/performance_venue -> /architecture/structure : 1.0000
+/music/performance_venue -> /architecture/building : 1.0000
+/music/performance_venue -> /projects/project_focus : 1.0000
+
+/book/newspaper_owner -> /organization/organization : 0.8000
+
+/film/film_genre -> /media_common/media_genre : 0.8073
+
+x/biology/gene_group -> /biology/gene_ontology_group : 1.0000
+
+x/music/lyricist -> /music/composer : 0.7520
+/music/lyricist -> /broadcast/artist : 0.7592
+
+/location/uk_non_metropolitan_district -> /location/dated_location : 1.0000
+/location/uk_non_metropolitan_district -> /location/uk_statistical_location : 0.7727
+/location/uk_non_metropolitan_district -> /location/administrative_division : 1.0000
+/location/uk_non_metropolitan_district -> /location/statistical_region : 1.0000
+
+/royalty/noble_person -> /people/person : 1.0000
+x/royalty/noble_person -> /people/deceased_person : 0.7871
+/royalty/noble_person -> /biology/organism : 1.0000
+
+/education/university_system -> /business/employer : 0.8235
+
+/royalty/kingdom -> /location/dated_location : 0.7358
+
+/religion/place_of_worship -> /location/location : 0.9921
+/religion/place_of_worship -> /projects/project_focus : 0.8892
+
+/sports/tournament_event_competition -> /time/event : 0.9952
+
+/astronomy/asteroid -> /astronomy/celestial_object : 0.9905
+x/astronomy/asteroid -> /astronomy/astronomical_discovery : 0.9894
+x/astronomy/asteroid -> /astronomy/orbital_relationship : 0.9892
+
+/geography/island -> /location/location : 1.0000
+/geography/island -> /geography/geographical_feature : 0.9756
+
+x/biology/breed_origin -> /people/person : 0.8667
+x/biology/breed_origin -> /location/dated_location : 0.9333
+x/biology/breed_origin -> /location/country : 0.9000
+/biology/breed_origin -> /location/region : 0.9667
+x/biology/breed_origin -> /government/governmental_jurisdiction : 0.9000
+x/biology/breed_origin -> /book/book_subject : 0.9333
+x/biology/breed_origin -> /location/administrative_division : 0.8667
+x/biology/breed_origin -> /biology/organism : 0.8667
+x/biology/breed_origin -> /organization/organization_member : 0.8000
+x/biology/breed_origin -> /location/statistical_region : 0.9667
+x/biology/breed_origin -> /sports/sports_team_location : 0.9000
+x/biology/breed_origin -> /olympics/olympic_participating_country : 0.8000
+x/biology/breed_origin -> /periodicals/newspaper_circulation_area : 0.8000
+
+/comic_books/comic_book_story -> /fictional_universe/work_of_fiction : 1.0000
+
+/transportation/road -> /location/location : 0.9954
+
+/interests/collection_activity -> /interests/interest : 0.9333
+/interests/collection_activity -> /interests/hobby : 1.0000
+
+/games/game_genre -> /media_common/media_genre : 1.0000
+
+/location/vn_provincial_city -> /location/dated_location : 1.0000
+/location/vn_provincial_city -> /location/administrative_division : 1.0000
+/location/vn_provincial_city -> /location/statistical_region : 1.0000
+
+/location/in_city -> /location/dated_location : 1.0000
+/location/in_city -> /location/statistical_region : 1.0000
+
+/location/hud_mfa -> /location/hud_section_8_area : 1.0000
+/location/hud_mfa -> /location/region : 1.0000
+
+x/food/beverage -> /medicine/drug : 0.9878
+
+x/media_common/dedicated_work -> /music/composition : 0.7534
+
+/film/film_story_contributor -> /people/person : 0.9518
+/film/film_story_contributor -> /biology/organism : 0.9518
+
+/sports/golf_course -> /location/location : 0.9884
+
+/biology/hybrid -> /biology/organism_classification : 0.9944
+
+/biology/gene_ontology_group_membership_evidence -> /biology/gene_group_membership_evidence : 1.0000
+
+/location/in_division -> /location/dated_location : 1.0000
+/location/in_division -> /location/location : 1.0000
+/location/in_division -> /location/region : 1.0000
+/location/in_division -> /location/administrative_division : 1.0000
+/location/in_division -> /location/statistical_region : 1.0000
+
+/location/uk_non_metropolitan_county -> /location/dated_location : 1.0000
+/location/uk_non_metropolitan_county -> /location/uk_statistical_location : 1.0000
+/location/uk_non_metropolitan_county -> /location/region : 1.0000
+/location/uk_non_metropolitan_county -> /location/administrative_division : 1.0000
+/location/uk_non_metropolitan_county -> /location/statistical_region : 1.0000
+x/location/uk_non_metropolitan_county -> /periodicals/newspaper_circulation_area : 0.7500
+
+x/military/military_commander -> /people/deceased_person : 0.8686
+
+/location/es_comarca -> /location/dated_location : 1.0000
+/location/es_comarca -> /location/location : 1.0000
+/location/es_comarca -> /location/region : 1.0000
+/location/es_comarca -> /location/administrative_division : 1.0000
+/location/es_comarca -> /location/statistical_region : 1.0000
+
+/broadcast/radio_network -> /organization/organization : 0.7778
+/broadcast/radio_network -> /business/business_operation : 0.7778
+
+x/location/uk_unitary_authority -> /location/dated_location : 0.9231
+/location/uk_unitary_authority -> /location/location : 1.0000
+/location/uk_unitary_authority -> /location/uk_statistical_location : 0.9231
+/location/uk_unitary_authority -> /location/region : 1.0000
+/location/uk_unitary_authority -> /location/administrative_division : 1.0000
+/location/uk_unitary_authority -> /location/statistical_region : 0.9231
+
+x/location/statistical_region -> /location/dated_location : 0.9828
+
+/education/dissertation -> /book/scholarly_work : 0.9943
+/education/dissertation -> /book/written_work : 0.9995
+
+/location/fr_department -> /location/administrative_division : 1.0000
+x/location/fr_department -> /location/ar_department : 0.8101
+
+/conferences/conference_series -> /time/recurring_event : 0.9054
+
+/location/vn_province -> /location/dated_location : 1.0000
+/location/vn_province -> /location/location : 1.0000
+/location/vn_province -> /location/region : 1.0000
+/location/vn_province -> /location/administrative_division : 1.0000
+/location/vn_province -> /location/statistical_region : 1.0000
+
+/aviation/airport -> /location/location : 0.9974
+
+/film/film_festival_event -> /time/event : 0.9981
+
+/location/us_metropolitan_division -> /location/location : 1.0000
+
+/automotive/company -> /business/business_operation : 1.0000
+/automotive/company -> /business/employer : 1.0000
+
+x/film/film_theorist -> /book/author : 0.7500
+
+x/chemistry/element_discoverer -> /people/deceased_person : 0.9333
+/chemistry/element_discoverer -> /education/academic : 0.8000
+/chemistry/element_discoverer -> /influence/influence_node : 0.8000
+
+/book/translated_work -> /book/written_work : 0.9759
+/book/translated_work -> /book/book : 0.8193
+
+x/business/business_operation/industry -> /business/competitive_space : 0.9691
+
+/sports/sports_award_winner -> /sports/pro_athlete : 0.9492
+
+/geography/lake -> /location/location : 0.9990
+/geography/lake -> /geography/geographical_feature : 0.9966
+
+/geography/island_group -> /location/location : 1.0000
+/geography/island_group -> /geography/geographical_feature : 0.9493
+
+/baseball/baseball_manager -> /baseball/baseball_player : 0.8298
+/baseball/baseball_manager -> /sports/pro_athlete : 0.8582
+
+x/cvg/cvg_publisher -> /people/person : 0.7291
+x/cvg/cvg_publisher -> /architecture/engineer : 0.7140
+x/cvg/cvg_publisher -> /biology/organism : 0.7291
+/cvg/cvg_publisher -> /business/employer : 0.9465
+x/cvg/cvg_publisher -> /cvg/cvg_developer : 0.7023
+
+/book/newspaper_issue -> /book/publication : 1.0000
+
+/biology/plant_disease_host -> /biology/organism_classification : 1.0000
+
+x/law/legal_case -> /time/event : 0.9657
+
+/rail/diesel_locomotive_class -> /rail/locomotive_class : 1.0000
+
+/aviation/aircraft_manufacturer -> /business/employer : 0.9767
+
+x/royalty/chivalric_order_founder -> /people/family_member : 0.7857
+x/royalty/chivalric_order_founder -> /people/deceased_person : 0.9286
+x/royalty/chivalric_order_founder -> /royalty/monarch : 0.7143
+/royalty/chivalric_order_founder -> /royalty/noble_person : 0.8571
+
+/protected_sites/protected_site -> /location/dated_location : 0.9354
+
+/food/food -> /food/nutrient : 0.8665
+x/food/food -> /food/ingredient : 0.8220
+
+x/spaceflight/rocket_engine -> /spaceflight/bipropellant_rocket_engine : 0.9412
+
+x/military/military_person -> /people/deceased_person : 0.8037
+
+/location/fr_region -> /location/dated_location : 1.0000
+/location/fr_region -> /location/administrative_division : 1.0000
+/location/fr_region -> /location/statistical_region : 1.0000
+
+/architecture/house -> /projects/project_focus : 0.9974
+
+x/engineering/material -> /chemistry/chemical_compound : 0.9746
+
+/location/it_comune -> /location/dated_location : 1.0000
+/location/it_comune -> /location/location : 1.0000
+/location/it_comune -> /location/region : 1.0000
+/location/it_comune -> /location/statistical_region : 1.0000
+
+/business/shopping_center -> /location/location : 0.7570
+
+x/book/translation -> /book/published_work : 0.9930
+
+/geography/mountain -> /location/location : 0.9964
+/geography/mountain -> /geography/geographical_feature : 0.9952
+
+x/architecture/building_occupant -> /organization/organization : 0.7600
+
+/aviation/airport_operator -> /organization/organization : 0.7273
+/aviation/airport_operator -> /business/employer : 0.7273
+
+/theater/play -> /book/written_work : 0.9685
+
+/religion/monastery -> /location/location : 1.0000
+/religion/monastery -> /projects/project_focus : 1.0000
+
+/cricket/cricket_stadium -> /architecture/venue : 1.0000
+/cricket/cricket_stadium -> /location/location : 1.0000
+/cricket/cricket_stadium -> /location/region : 1.0000
+/cricket/cricket_stadium -> /projects/project_focus : 1.0000
+
+/sports/sports_facility -> /architecture/venue : 0.9987
+/sports/sports_facility -> /location/location : 1.0000
+/sports/sports_facility -> /location/region : 0.9987
+/sports/sports_facility -> /projects/project_focus : 0.9902
+
+/organization/organization_partnership -> /organization/organization : 0.8235
+
+/medicine/muscle -> /medicine/anatomical_structure : 0.9697
+
+/book/serial_installment -> /book/published_work : 0.9167
+
+/government/parliamentary_election -> /time/event : 1.0000
+x/government/parliamentary_election -> /government/general_election : 1.0000
+
+/amusement_parks/ride_manufacturer -> /business/employer : 0.9474
+
+/architecture/landscape_project -> /location/location : 1.0000
+
+/geography/river -> /location/location : 1.0000
+/geography/river -> /geography/geographical_feature : 0.9999
+
+x/education/academic_institution -> /location/location : 0.7419
+/education/academic_institution -> /business/employer : 0.9032
+
+x/medicine/medical_treatment -> /medicine/drug : 0.8146
+
+x/event/public_speaking_event -> /conferences/conference : 0.7143
+/event/public_speaking_event -> /time/event : 1.0000
+
+/basketball/basketball_player -> /sports/pro_athlete : 1.0000
+
+/military/military_conflict -> /time/event : 0.9867
+
+/media_common/adapted_work -> /book/written_work : 0.7787
+
+/book/short_story -> /book/published_work : 0.9826
+/book/short_story -> /book/written_work : 0.9993
+
+x/broadcast/genre -> /book/book_subject : 0.8839
+
+/dining/restaurant -> /organization/organization : 0.8469
+x/dining/restaurant -> /location/location : 0.9081
+x/dining/restaurant -> /business/business_location : 0.8995
+/dining/restaurant -> /business/employer : 0.8437
+
+/location/de_rural_district -> /location/dated_location : 1.0000
+/location/de_rural_district -> /location/administrative_division : 1.0000
+/location/de_rural_district -> /location/statistical_region : 1.0000
+
+/american_football/football_game -> /award/competition : 0.9875
+/american_football/football_game -> /american_football/nfl_game : 0.9875
+
+/location/ar_department -> /location/administrative_division : 1.0000
+
+/location/cn_county -> /location/dated_location : 1.0000
+/location/cn_county -> /location/administrative_division : 1.0000
+/location/cn_county -> /location/statistical_region : 1.0000
+
+/broadcast/tv_station_owner -> /organization/organization : 0.7416
+/broadcast/tv_station_owner -> /business/employer : 0.7079
+
+x/biology/chromosome -> /biology/cytogenetic_band : 0.9745
+
+x/media_common/adaptation -> /film/film : 0.7450
+
+x/astronomy/celestial_object -> /astronomy/astronomical_discovery : 0.7737
+x/astronomy/celestial_object -> /astronomy/orbital_relationship : 0.9082
+
+/sports/cyclist -> /sports/pro_athlete : 1.0000
+
+/tv/tv_genre -> /media_common/media_genre : 0.9367
+
+/cricket/cricket_tournament_event -> /sports/sports_championship_event : 1.0000
+
+/location/br_state -> /location/dated_location : 1.0000
+/location/br_state -> /location/administrative_division : 1.0000
+/location/br_state -> /location/statistical_region : 1.0000
+
+/spaceflight/satellite_manufacturer -> /business/employer : 0.8750
+
+/boxing/boxing_match -> /time/event : 1.0000
+
+/education/student_radio_station -> /broadcast/broadcast : 0.9167
+
+/broadcast/radio_station -> /broadcast/broadcast : 0.9446
+
+/conferences/conference_venue -> /architecture/structure : 0.9434
+/conferences/conference_venue -> /architecture/building : 0.9245
+x/conferences/conference_venue -> /projects/project_focus : 0.9434
+
+/soccer/football_pitch -> /architecture/venue : 1.0000
+/soccer/football_pitch -> /location/location : 1.0000
+/soccer/football_pitch -> /architecture/structure : 1.0000
+/soccer/football_pitch -> /location/region : 1.0000
+/soccer/football_pitch -> /sports/sports_facility : 1.0000
+x/soccer/football_pitch -> /projects/project_focus : 1.0000
+
+x/film/film_featured_song -> /award/award_nominated_work : 0.7919
+
+x/biology/plant_disease_cause -> /biology/organism_classification : 1.0000
+
+/computer/computer_manufacturer_brand -> /organization/organization : 0.9310
+/computer/computer_manufacturer_brand -> /business/business_operation : 0.8966
+/computer/computer_manufacturer_brand -> /business/employer : 0.8966
+
+/military/military_post -> /location/location : 0.8690
+
+/rail/railway_operator -> /organization/organization : 0.9500
+/rail/railway_operator -> /business/business_operation : 0.9000
+/rail/railway_operator -> /business/employer : 0.9500
+
+/location/cemetery -> /location/dated_location : 0.9923
+/location/cemetery -> /people/place_of_interment : 0.9969
+
+x/astronomy/astronomical_discovery -> /astronomy/asteroid : 0.8641
+x/astronomy/astronomical_discovery -> /astronomy/celestial_object : 0.9794
+x/astronomy/astronomical_discovery -> /astronomy/orbital_relationship : 0.9619
+
+/architecture/architectural_contractor -> /projects/project_participant : 0.9833
+
+/location/it_province -> /location/dated_location : 1.0000
+/location/it_province -> /location/location : 1.0000
+/location/it_province -> /location/region : 1.0000
+/location/it_province -> /location/administrative_division : 1.0000
+/location/it_province -> /location/statistical_region : 1.0000
+
+/location/us_indian_reservation -> /location/dated_location : 0.9556
+/location/us_indian_reservation -> /location/administrative_division : 0.8444
+/location/us_indian_reservation -> /location/statistical_region : 0.9556
+
+/spaceflight/rocket_manufacturer -> /organization/organization : 0.7778
+/spaceflight/rocket_manufacturer -> /business/business_operation : 0.7778
+/spaceflight/rocket_manufacturer -> /business/employer : 0.7778
+
+/broadcast/internet_stream -> /broadcast/broadcast : 1.0000
+
+/astronomy/star_system -> /astronomy/celestial_object : 1.0000
+
+/astronomy/astronomical_observatory -> /projects/project_focus : 0.9940
+
+/baseball/baseball_coach -> /baseball/baseball_player : 0.8559
+/baseball/baseball_coach -> /sports/pro_athlete : 0.8644
+
+/broadcast/tv_channel -> /broadcast/broadcast : 0.9565
+
+/broadcast/tv_station -> /broadcast/broadcast : 0.9951
+
+/government/general_election -> /time/event : 0.9713
+
+x/olympics/olympic_games -> /book/book_subject : 0.7778
+/olympics/olympic_games -> /time/event : 1.0000
+
+/interests/collectable_item -> /business/consumer_product : 0.8152
+
+/organization/club -> /business/employer : 0.7322
+x/organization/club -> /education/fraternity_sorority : 0.8907
+
+/location/in_district -> /location/dated_location : 1.0000
+/location/in_district -> /location/administrative_division : 1.0000
+/location/in_district -> /location/statistical_region : 1.0000
+
+/rail/electric_locomotive_class -> /rail/locomotive_class : 1.0000
+
+/sports/drafted_athlete -> /people/measured_person : 0.9937
+/sports/drafted_athlete -> /sports/pro_athlete : 1.0000
+
+x/games/game_designer -> /architecture/engineer : 0.8113
+x/games/game_designer -> /cvg/cvg_designer : 0.8098
+
+/location/de_city -> /location/dated_location : 1.0000
+/location/de_city -> /location/administrative_division : 1.0000
+/location/de_city -> /location/statistical_region : 1.0000
+
+x/location/census_designated_place -> /location/dated_location : 0.9041
+x/location/census_designated_place -> /location/hud_foreclosure_area : 0.9686
+x/location/census_designated_place -> /location/hud_county_place : 0.9686
+/location/census_designated_place -> /location/statistical_region : 0.9180
+
+x/exhibitions/exhibit -> /zoos/zoo_exhibit : 0.8522
+
+/sports/golfer -> /sports/pro_athlete : 1.0000
+
+/business/issuer -> /business/business_operation : 0.9964
+
+x/education/fraternity_sorority -> /business/employer : 0.8098
+
+x/travel/hotel_brand -> /organization/organization : 0.7200
+x/travel/hotel_brand -> /business/employer : 0.7067
+
+/business/defunct_company -> /business/business_operation : 0.9367
+/business/defunct_company -> /business/employer : 0.7907
+
+x/medicine/surgeon -> /people/deceased_person : 0.7544
+
+/location/mx_state -> /location/dated_location : 1.0000
+/location/mx_state -> /location/administrative_division : 1.0000
+/location/mx_state -> /location/statistical_region : 1.0000
+
+/royalty/chivalric_order_officer -> /royalty/chivalric_order_member : 0.7000
+
+x/travel/travel_destination -> /location/dated_location : 0.8449
+/travel/travel_destination -> /location/location : 0.9968
+/travel/travel_destination -> /location/region : 0.9304
+x/travel/travel_destination -> /location/statistical_region : 0.9019
+
+/location/es_province -> /location/dated_location : 1.0000
+/location/es_province -> /location/location : 1.0000
+/location/es_province -> /location/region : 1.0000
+/location/es_province -> /location/administrative_division : 1.0000
+/location/es_province -> /location/statistical_region : 1.0000
+
+/book/short_non_fiction -> /book/published_work : 1.0000
+/book/short_non_fiction -> /book/written_work : 1.0000
+
+x/food/diet_follower -> /film/actor : 0.7143
+
+/cvg/computer_game_rating_system -> /organization/organization : 1.0000
+
+/film/film_character -> /fictional_universe/fictional_character : 0.9962
+
+/aviation/aircraft_owner -> /organization/organization : 0.9770
+/aviation/aircraft_owner -> /business/business_operation : 0.9293
+x/aviation/aircraft_owner -> /aviation/airline : 0.9219
+/aviation/aircraft_owner -> /business/employer : 0.8512
+
+/location/ca_indian_reserve -> /location/dated_location : 1.0000
+/location/ca_indian_reserve -> /location/location : 1.0000
+/location/ca_indian_reserve -> /location/region : 1.0000
+/location/ca_indian_reserve -> /location/statistical_region : 1.0000
+
+/business/consumer_company -> /business/business_operation : 1.0000
+/business/consumer_company -> /business/employer : 0.7976
+
+/medicine/ligament -> /medicine/anatomical_structure : 1.0000
+
+/cvg/computer_game_engine_developer -> /organization/organization : 0.7778
+/cvg/computer_game_engine_developer -> /business/business_operation : 0.7778
+/cvg/computer_game_engine_developer -> /business/employer : 0.7778
+
+x/business/customer -> /organization/organization : 0.8462
+x/business/customer -> /business/business_operation : 0.7692
+x/business/customer -> /business/employer : 0.8077
+
+/cricket/cricket_bowler -> /people/measured_person : 0.9921
+/cricket/cricket_bowler -> /cricket/cricket_player : 1.0000
+/cricket/cricket_bowler -> /sports/pro_athlete : 1.0000
+
+/olympics/olympic_event_competition -> /time/event : 1.0000
+
+/location/it_region -> /location/dated_location : 1.0000
+/location/it_region -> /location/administrative_division : 1.0000
+/location/it_region -> /location/statistical_region : 1.0000
+
+/travel/hotel_operator -> /organization/organization : 0.9259
+/travel/hotel_operator -> /business/business_operation : 0.9259
+/travel/hotel_operator -> /business/employer : 0.9259
+
+/biology/pedigreed_animal -> /biology/owned_animal : 0.9893
+
+/religion/religious_leadership_role -> /religion/religious_leadership_title : 0.7647
+
+/cricket/cricket_administrative_body -> /business/employer : 1.0000
+
+/location/it_frazione -> /location/dated_location : 1.0000
+/location/it_frazione -> /location/location : 1.0000
+/location/it_frazione -> /location/region : 1.0000
+/location/it_frazione -> /location/statistical_region : 1.0000
+
+x/biology/deceased_organism -> /biology/owned_animal : 0.7105
+/biology/deceased_organism -> /biology/animal : 0.7237
+x/biology/deceased_organism -> /biology/pedigreed_animal : 0.7105
+
+/tennis/tennis_tournament -> /time/event : 0.8771
+
+/astronomy/galaxy -> /astronomy/celestial_object : 0.9884
+
+x/sports/sports_team_location -> /location/dated_location : 0.9463
+/sports/sports_team_location -> /location/region : 0.9597
+x/sports/sports_team_location -> /location/statistical_region : 0.9564
+
+/location/uk_london_borough -> /location/dated_location : 1.0000
+/location/uk_london_borough -> /location/location : 1.0000
+/location/uk_london_borough -> /location/uk_statistical_location : 1.0000
+/location/uk_london_borough -> /location/region : 1.0000
+/location/uk_london_borough -> /location/administrative_division : 1.0000
+/location/uk_london_borough -> /location/statistical_region : 1.0000
+
+/location/id_subdistrict -> /location/dated_location : 1.0000
+/location/id_subdistrict -> /location/administrative_division : 1.0000
+/location/id_subdistrict -> /location/statistical_region : 1.0000
+
+/book/magazine_issue -> /book/publication : 1.0000
+
+/rail/steam_locomotive_class -> /rail/locomotive_class : 1.0000
+
+/tv/tv_crewmember -> /people/person : 1.0000
+/tv/tv_crewmember -> /biology/organism : 1.0000
+
+/book/book -> /book/written_work : 0.9998
+
+/business/endorsed_product -> /business/consumer_product : 0.8462
+
+/geography/mountain_pass -> /geography/geographical_feature : 0.9899
+
+x/projects/project_focus -> /location/location : 0.9169
+x/projects/project_focus -> /architecture/structure : 0.9603
+
+x/olympics/olympic_participating_country -> /people/person : 0.9143
+/olympics/olympic_participating_country -> /location/dated_location : 0.9714
+/olympics/olympic_participating_country -> /location/country : 0.9714
+x/olympics/olympic_participating_country -> /government/governmental_jurisdiction : 0.9143
+x/olympics/olympic_participating_country -> /book/book_subject : 0.9571
+x/olympics/olympic_participating_country -> /location/administrative_division : 0.8714
+x/olympics/olympic_participating_country -> /biology/organism : 0.9143
+/olympics/olympic_participating_country -> /organization/organization_member : 0.9000
+/olympics/olympic_participating_country -> /location/statistical_region : 0.9714
+/olympics/olympic_participating_country -> /sports/sports_team_location : 0.9143
+/olympics/olympic_participating_country -> /sports/sport_country : 1.0
+
+x/book/publication -> /book/periodical : 0.8943
+x/book/publication -> /book/magazine_issue : 0.8826
+
+/location/australian_suburb -> /location/dated_location : 0.9971
+/location/australian_suburb -> /location/statistical_region : 0.9971
+
+/location/id_city -> /location/dated_location : 0.9500
+/location/id_city -> /location/administrative_division : 1.0000
+/location/id_city -> /location/statistical_region : 0.9500
+
+/music/bassist -> /music/group_member : 0.8288
+
+x/organization/endowed_organization -> /education/educational_institution : 0.9983
+x/organization/endowed_organization -> /location/location : 0.9739
+/organization/endowed_organization -> /business/employer : 0.9930
+
+/tennis/tennis_player -> /sports/pro_athlete : 0.9954
+
+/business/shopping_center_owner -> /organization/organization : 0.9286
+/business/shopping_center_owner -> /business/business_operation : 0.9286
+/business/shopping_center_owner -> /business/employer : 0.9286
+
+/business/trade_union -> /business/employer : 1.0000
+
+/location/uk_civil_parish -> /location/dated_location : 1.0000
+/location/uk_civil_parish -> /location/administrative_division : 0.9909
+/location/uk_civil_parish -> /location/statistical_region : 1.0000
+
+/government/us_president -> /government/politician : 1.0000
+x/government/us_president -> /book/author : 0.8000
+x/government/us_president -> /people/deceased_person : 0.8667
+x/government/us_president -> /book/book_subject : 1.0000
+
+x/film/film_festival_focus -> /visual_art/art_subject : 0.7500
+x/film/film_festival_focus -> /book/book_subject : 0.7500
+x/film/film_festival_focus -> /film/film_genre : 0.7500
+x/film/film_festival_focus -> /film/film : 0.7500
+x/film/film_festival_focus -> /film/film_subject : 0.7500
+
+/architecture/architecture_firm -> /business/employer : 1.0000
+
+/food/candy_bar_manufacturer -> /business/employer : 1.0000
+
+/astronomy/nebula -> /astronomy/celestial_object : 1.0000
+
+/theater/musical_soundtrack -> /music/album : 0.9717
+
+/music/release_component -> /media_common/creative_work : 1.0000
+
+/organization/organization_scope -> /location/location : 0.9541
+/organization/organization_scope -> /location/region : 0.8776
+
+x/periodicals/newspaper_circulation_area -> /location/dated_location : 0.9654
+x/periodicals/newspaper_circulation_area -> /location/statistical_region : 0.9678
+
+x/book/poem -> /book/published_work : 0.8674
+/book/poem -> /book/written_work : 0.9946
+
+x/opera/librettist -> /people/deceased_person : 0.7877
+
+/fictional_universe/fictional_organization_founder -> /fictional_universe/fictional_character : 0.8286
+
+/interests/hobby -> /interests/interest : 0.8936
+
+/award/recurring_competition -> /time/recurring_event : 1.0000
+
+/computer/computer_emulator -> /computer/software : 1.0000
+
+/venture_capital/venture_funded_company -> /business/business_operation : 0.9923
+/venture_capital/venture_funded_company -> /business/employer : 0.9962
+
+x/spaceflight/space_mission -> /book/book_subject : 0.7153
+/spaceflight/space_mission -> /time/event : 0.9028
+/spaceflight/space_mission -> /projects/project_focus : 1.0000
+
+/sports/multi_event_tournament -> /time/event : 1.0000
+
+/olympics/olympic_host_city -> /location/dated_location : 1.0000
+/olympics/olympic_host_city -> /location/statistical_region : 1.0000
+
+/influence/influence_node -> /people/person : 0.9923
+/influence/influence_node -> /biology/organism : 0.9923
+
+/location/australian_local_government_area -> /location/dated_location : 1.0000
+/location/australian_local_government_area -> /location/administrative_division : 1.0000
+/location/australian_local_government_area -> /location/statistical_region : 1.0000
+
+x/biology/gene_group_membership_evidence -> /biology/gene_ontology_group_membership_evidence : 1.0000
+
+/medicine/cranial_nerve -> /medicine/anatomical_structure : 1.0000
+
+x/games/game_expansion -> /book/written_work : 0.8468
+x/games/game_expansion -> /book/book : 0.8468
+
+/location/in_state -> /location/dated_location : 1.0000
+/location/in_state -> /location/administrative_division : 1.0000
+/location/in_state -> /location/statistical_region : 1.0000
+
+x/astronomy/orbital_relationship -> /astronomy/asteroid : 0.7511
+/astronomy/orbital_relationship -> /astronomy/celestial_object : 0.9996
+/astronomy/orbital_relationship -> /astronomy/astronomical_discovery : 0.8363
+
+/location/id_province -> /location/dated_location : 1.0000
+/location/id_province -> /location/location : 1.0000
+/location/id_province -> /location/region : 1.0000
+/location/id_province -> /location/administrative_division : 1.0000
+/location/id_province -> /location/statistical_region : 1.0000
+
+/sports/golf_facility -> /location/location : 0.9872
+
+/book/journal -> /organization/organization : 0.9616
+/book/journal -> /business/employer : 0.9616
+
+/cvg/cvg_genre -> /media_common/media_genre : 1.0000
+
+/education/school_newspaper -> /book/periodical : 0.9371
+/education/school_newspaper -> /book/newspaper : 0.9308
+
+/location/pr_municipality -> /location/dated_location : 1.0000
+/location/pr_municipality -> /location/hud_foreclosure_area : 1.0000
+/location/pr_municipality -> /location/us_county : 0.9545
+/location/pr_municipality -> /location/administrative_division : 1.0000
+/location/pr_municipality -> /location/statistical_region : 1.0000
+
+/aviation/airliner_accident -> /event/disaster : 0.9968
+/aviation/airliner_accident -> /time/event : 0.9968
+
+/distilled_spirits/spirit_bottler -> /business/employer : 1.0000
+
+/comic_books/comic_book_fictional_universe -> /fictional_universe/fictional_universe : 1.0000
+
+/computer/processor_manufacturer -> /business/employer : 0.9412
+
+/music/guitarist -> /music/group_member : 0.7607
+
+/protected_sites/governing_body_of_protected_sites -> /organization/organization : 1.0000
+
+/computer/computer_peripheral -> /business/consumer_product : 0.9630
+
+/american_football/football_player -> /sports/pro_athlete : 1.0000
+
